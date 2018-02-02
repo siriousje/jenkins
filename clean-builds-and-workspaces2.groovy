@@ -1,6 +1,3 @@
-import hudson.node_monitors.*
-import hudson.slaves.*
-
 // globals  
 now = Calendar.instance;
 cleanAfter = 24 * 60 * 60; // one day
