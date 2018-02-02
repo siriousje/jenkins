@@ -28,6 +28,7 @@ def cleanWorkspace (items) {
         else {
           println("    unknown subitem: $subitem");
         }
+        cleanWorkspace(item.items);
       }        
     }
     else if (item.isBuilding()) { 
